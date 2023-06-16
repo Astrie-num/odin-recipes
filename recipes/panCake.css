@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+.main{
+    background-color: black;
+}
+
+
+.recipe{
+    width:40%;
+    height: 1%;
+    border-radius: 12px;
+}
+
+.name{
+    height:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color:rgb(177, 127, 34);
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2%;
+    text-align: left;
+    color:#fff;
+    border: 12px double #ffffff14;
+    width:80%;
+}
+
+
+.card--info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 2rem;
+    color:rgb(177, 127, 34);
+    margin: 4% 0% 1% 1%;
+
+}
+
+ul li{
+    list-style-type: none;
+    padding-bottom: 0.5%;
+}
+
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    height:55%;
+    margin-top: 2%;
+  
+}
+
+
+figure{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 64%;
+
+}
+
+figcaption{
+    margin-top: 1%;
+}
+
+.card--recipe {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    height:100%;
+    width:fit-content;
+    
+}
